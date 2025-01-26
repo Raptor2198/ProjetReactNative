@@ -30,13 +30,15 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 ```bash
 git clone https://github.com/Raptor2198/ProjetReactNative.git
 
-2. Allez dans le répertoire du projet :
+### 2. Allez dans le répertoire du projet :
 
 cd catalogue-livres
-3. Installez les dépendances :
+
+### 3. Installez les dépendances :
 
 npm install
-4. Lancez le projet avec Expo :
+
+### 4. Lancez le projet avec Expo :
 - naviguez dans le dossier racine 
 - puis après tapez "npm expo start --web"
 Cela vous donnera un lien qui ressemble à "Web is waiting on http://localhost:8081" qui permettra d'éccéder à l'application
