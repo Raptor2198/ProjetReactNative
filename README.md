@@ -27,7 +27,6 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
 ### 1. Clonez ce dépôt :
 
-```bash
 git clone https://github.com/Raptor2198/ProjetReactNative.git
 
 ### 2. Allez dans le répertoire du projet :
