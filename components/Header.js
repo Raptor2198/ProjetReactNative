@@ -10,13 +10,19 @@ export default function Header({ title }) {
 }
 
 const styles = StyleSheet.create({
-  header: {
-    backgroundColor: '#2196F3',
-    padding: 15,
-  },
-  title: {
-    color: 'white',
-    fontSize: 20,
-    textAlign: 'center',
-  },
-});
+    header: {
+      backgroundColor: '#007AFF',
+      padding: 15,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.2,
+      shadowRadius: 4,
+      elevation: 5,
+    },
+    title: {
+      color: 'white',
+      fontSize: 22,
+      fontWeight: 'bold',
+      textAlign: 'center',
+    },
+  });

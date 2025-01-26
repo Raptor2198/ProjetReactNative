@@ -31,23 +31,29 @@ export default function App() {
     <BookProvider> {/* Encapsulation de l'application dans le provider */}
       <NavigationContainer>
         <Tab.Navigator
-          screenOptions={({ route }) => ({
-            tabBarIcon: ({ color, size }) => {
-              let iconName;
-              if (route.name === 'Home') {
-                iconName = 'home';
-              } else if (route.name === 'Search') {
-                iconName = 'search';
-              } else if (route.name === 'Statistics') {
-                iconName = 'stats-chart';
-              } else if (route.name === 'About') {
-                iconName = 'information-circle';
-              }
-              return <Ionicons name={iconName} size={size} color={color} />;
-            },
-            tabBarActiveTintColor: 'blue',
-            tabBarInactiveTintColor: 'gray',
-          })}
+screenOptions={({ route }) => ({
+  tabBarIcon: ({ color, size }) => {
+    let iconName;
+    if (route.name === 'Home') {
+      iconName = 'home-outline';
+    } else if (route.name === 'Search') {
+      iconName = 'search-outline';
+    } else if (route.name === 'Statistics') {
+      iconName = 'stats-chart-outline';
+    } else if (route.name === 'About') {
+      iconName = 'information-circle-outline';
+    }
+    return <Ionicons name={iconName} size={size} color={color} />;
+  },
+  tabBarStyle: {
+    backgroundColor: '#FFFFFF',
+    borderTopWidth: 1,
+    borderTopColor: '#E5E5EA',
+  },
+  tabBarActiveTintColor: '#007AFF',
+  tabBarInactiveTintColor: '#8E8E93',
+})}
+
         >
           <Tab.Screen name="Home" component={HomeStack} options={{ headerShown: false }} />
           <Tab.Screen name="Search" component={Search} />

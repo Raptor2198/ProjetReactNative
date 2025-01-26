@@ -10,12 +10,16 @@ export default function Footer() {
 }
 
 const styles = StyleSheet.create({
-  footer: {
-    backgroundColor: '#2196F3',
-    padding: 10,
-    alignItems: 'center',
-  },
-  text: {
-    color: 'white',
-  },
-});
+    footer: {
+      backgroundColor: '#F2F2F7',
+      padding: 15,
+      borderTopWidth: 1,
+      borderColor: '#E5E5EA',
+      alignItems: 'center',
+    },
+    text: {
+      color: '#8E8E93',
+      fontSize: 14,
+    },
+  });
+  

@@ -19,11 +19,23 @@ export default function Statistics() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    padding: 20,
-  },
-  stat: {
-    fontSize: 18,
-    marginVertical: 5,
-  },
-});
+    container: {
+      flex: 1,
+      padding: 20,
+      backgroundColor: '#FFFFFF',
+      borderRadius: 15,
+      margin: 10,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.1,
+      shadowRadius: 5,
+      elevation: 3,
+    },
+    stat: {
+      fontSize: 18,
+      marginVertical: 10,
+      fontWeight: '600',
+      color: '#1C1C1E',
+    },
+  });
+  

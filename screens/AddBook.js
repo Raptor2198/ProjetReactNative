@@ -47,19 +47,28 @@ export default function AddBook({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 20,
-  },
-  input: {
-    borderColor: '#CCC',
-    borderWidth: 1,
-    borderRadius: 8,
-    padding: 10,
-    marginBottom: 15,
-  },
-  description: {
-    height: 100,
-    textAlignVertical: 'top',
-  },
-});
+    container: {
+      flex: 1,
+      padding: 20,
+      backgroundColor: '#F2F2F7',
+    },
+    input: {
+      borderColor: '#E5E5EA',
+      borderWidth: 1,
+      borderRadius: 15,
+      padding: 15,
+      marginBottom: 15,
+      backgroundColor: '#FFFFFF',
+      fontSize: 16,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.05,
+      shadowRadius: 3,
+      elevation: 2,
+    },
+    description: {
+      height: 100,
+      textAlignVertical: 'top',
+    },
+  });
+  

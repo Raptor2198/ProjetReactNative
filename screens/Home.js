@@ -40,15 +40,19 @@ export default function Home({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  buttonContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    marginVertical: 10,
-  },
-  addButton: {
-    margin: 10,
-  },
-});
+    container: {
+      flex: 1,
+      backgroundColor: '#F2F2F7',
+    },
+    buttonContainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-around',
+      marginVertical: 15,
+    },
+    addButton: {
+      margin: 15,
+      borderRadius: 15,
+      overflow: 'hidden',
+    },
+  });
+  

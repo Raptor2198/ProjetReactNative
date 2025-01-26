@@ -10,15 +10,23 @@ export default function BookCard({ category }) {
 }
 
 const styles = StyleSheet.create({
-  card: {
-    backgroundColor: '#F5F5F5',
-    padding: 15,
-    marginVertical: 10,
-    borderRadius: 10,
-    borderColor: '#DDD',
-    borderWidth: 1,
-  },
-  text: {
-    fontSize: 16,
-  },
-});
+    card: {
+      backgroundColor: '#FFFFFF',
+      padding: 20,
+      marginVertical: 10,
+      borderRadius: 15,
+      borderWidth: 1,
+      borderColor: '#E5E5EA',
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.1,
+      shadowRadius: 5,
+      elevation: 3, // pour Android
+    },
+    text: {
+      fontSize: 18,
+      fontWeight: '600',
+      color: '#007AFF',
+    },
+  });
+  
